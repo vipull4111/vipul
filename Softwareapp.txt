@@ -1,0 +1,188 @@
+2024-03-27 11:35:35.651  INFO 2100 --- [main] com.rushi.project.ProjectApplication     : Starting ProjectApplication using Java 17.0.7 on Rushikesh with PID 2100 (D:\project (1)\project\target\classes started by rushi in D:\project (1)\project)
+2024-03-27 11:35:35.656  INFO 2100 --- [main] com.rushi.project.ProjectApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 11:35:36.379  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 11:35:36.423  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2024-03-27 11:35:36.910  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-27 11:35:36.920  INFO 2100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27 11:35:36.920  INFO 2100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-27 11:35:37.037  INFO 2100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27 11:35:37.038  INFO 2100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
+2024-03-27 11:35:37.209  INFO 2100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 11:35:37.267  INFO 2100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-27 11:35:37.427  INFO 2100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-27 11:35:37.520  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27 11:35:37.816  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27 11:35:37.834  INFO 2100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 11:35:38.342  INFO 2100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 11:35:38.350  INFO 2100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:35:38.699  WARN 2100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 11:35:38.809  INFO 2100 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 11:35:39.094  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-27 11:35:39.095  INFO 2100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 11:35:39.110  INFO 2100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 11:35:39.133  INFO 2100 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 11:35:39.241  INFO 2100 --- [main] com.rushi.project.ProjectApplication     : Started ProjectApplication in 3.937 seconds (JVM running for 4.611)
+2024-03-27 11:35:57.208  INFO 2100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27 11:35:57.208  INFO 2100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27 11:35:57.209  INFO 2100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-27 11:37:30.705  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-27 11:37:30.718  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27 11:37:30.719  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-27 11:37:30.728  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:37:30.730  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27 11:37:30.736  INFO 2100 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27 11:38:02.457  INFO 5448 --- [main] com.rushi.project.ProjectApplication     : Starting ProjectApplication using Java 17.0.7 on Rushikesh with PID 5448 (D:\project (1)\project\target\classes started by rushi in D:\project (1)\project)
+2024-03-27 11:38:02.459  INFO 5448 --- [main] com.rushi.project.ProjectApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 11:38:03.028  INFO 5448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 11:38:03.063  INFO 5448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2024-03-27 11:38:03.459  INFO 5448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-27 11:38:03.466  INFO 5448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27 11:38:03.466  INFO 5448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-27 11:38:03.571  INFO 5448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27 11:38:03.571  INFO 5448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2024-03-27 11:38:03.717  INFO 5448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 11:38:03.754  INFO 5448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-27 11:38:03.879  INFO 5448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-27 11:38:03.955  INFO 5448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27 11:38:04.218  INFO 5448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27 11:38:04.232  INFO 5448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 11:38:04.667  INFO 5448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 11:38:04.675  INFO 5448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:38:05.000  WARN 5448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 11:38:05.096  INFO 5448 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 11:38:05.332  INFO 5448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-27 11:38:05.333  INFO 5448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 11:38:05.345  INFO 5448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 11:38:05.365  INFO 5448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 11:38:05.458  INFO 5448 --- [main] com.rushi.project.ProjectApplication     : Started ProjectApplication in 3.304 seconds (JVM running for 3.875)
+2024-03-27 11:38:38.032  INFO 5448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27 11:38:38.032  INFO 5448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27 11:38:38.033  INFO 5448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-27 11:39:47.445  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-27 11:39:47.456  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27 11:39:47.457  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-27 11:39:47.464  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:39:47.465  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27 11:39:47.471  INFO 5448 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27 11:40:58.426  INFO 4412 --- [main] com.rushi.project.ProjectApplication     : Starting ProjectApplication using Java 17.0.7 on Rushikesh with PID 4412 (D:\project (1)\project\target\classes started by rushi in D:\project (1)\project)
+2024-03-27 11:40:58.429  INFO 4412 --- [main] com.rushi.project.ProjectApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 11:40:58.997  INFO 4412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 11:40:59.033  INFO 4412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2024-03-27 11:40:59.436  INFO 4412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-27 11:40:59.444  INFO 4412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27 11:40:59.444  INFO 4412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-27 11:40:59.536  INFO 4412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27 11:40:59.537  INFO 4412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2024-03-27 11:40:59.685  INFO 4412 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 11:40:59.722  INFO 4412 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-27 11:40:59.845  INFO 4412 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-27 11:40:59.920  INFO 4412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27 11:41:00.196  INFO 4412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27 11:41:00.210  INFO 4412 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 11:41:00.653  INFO 4412 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 11:41:00.661  INFO 4412 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:41:00.990  WARN 4412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 11:41:01.088  INFO 4412 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 11:41:01.328  INFO 4412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-27 11:41:01.328  INFO 4412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 11:41:01.341  INFO 4412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 11:41:01.362  INFO 4412 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 11:41:01.457  INFO 4412 --- [main] com.rushi.project.ProjectApplication     : Started ProjectApplication in 3.338 seconds (JVM running for 3.904)
+2024-03-27 11:41:18.349  INFO 4412 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27 11:41:18.349  INFO 4412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27 11:41:18.351  INFO 4412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-27 11:42:53.014  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-27 11:42:53.024  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27 11:42:53.025  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-27 11:42:53.032  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:42:53.033  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27 11:42:53.039  INFO 4412 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27 11:45:07.763  INFO 9564 --- [main] com.rushi.project.ProjectApplication     : Starting ProjectApplication using Java 17.0.7 on Rushikesh with PID 9564 (D:\project (1)\project\target\classes started by rushi in D:\project (1)\project)
+2024-03-27 11:45:07.765  INFO 9564 --- [main] com.rushi.project.ProjectApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 11:45:08.349  INFO 9564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 11:45:08.386  INFO 9564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2024-03-27 11:45:08.814  INFO 9564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-27 11:45:08.822  INFO 9564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27 11:45:08.822  INFO 9564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-27 11:45:08.927  INFO 9564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27 11:45:08.927  INFO 9564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1127 ms
+2024-03-27 11:45:09.065  INFO 9564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 11:45:09.101  INFO 9564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-27 11:45:09.224  INFO 9564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-27 11:45:09.297  INFO 9564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27 11:45:09.564  INFO 9564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27 11:45:09.577  INFO 9564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 11:45:10.014  INFO 9564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 11:45:10.021  INFO 9564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:45:10.352  WARN 9564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 11:45:10.446  INFO 9564 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 11:45:10.773  INFO 9564 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61e4a072, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32f2de5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@34907a49, org.springframework.security.web.header.HeaderWriterFilter@4a76c90, org.springframework.security.web.csrf.CsrfFilter@47462daf, org.springframework.security.web.authentication.logout.LogoutFilter@3bede349, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e86b2d1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@183435c0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1a6df932, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@373c8f35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ae26c59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15ade272, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74120029, org.springframework.security.web.session.SessionManagementFilter@7da0587a, org.springframework.security.web.access.ExceptionTranslationFilter@2c376461, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4db10b9f]
+2024-03-27 11:45:10.823  INFO 9564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-27 11:45:10.824  INFO 9564 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 11:45:10.837  INFO 9564 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 11:45:10.858  INFO 9564 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 11:45:10.958  INFO 9564 --- [main] com.rushi.project.ProjectApplication     : Started ProjectApplication in 3.487 seconds (JVM running for 4.071)
+2024-03-27 11:45:42.147  INFO 9564 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-27 11:45:42.148  INFO 9564 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-27 11:45:42.149  INFO 9564 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-27 11:46:58.388  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-27 11:46:58.398  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-27 11:46:58.399  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-27 11:46:58.407  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 11:46:58.409  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27 11:46:58.415  INFO 9564 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27 13:27:38.272  INFO 7412 --- [main] c.rushi.project.ProjectApplicationTests  : Starting ProjectApplicationTests using Java 17.0.7 on Rushikesh with PID 7412 (started by rushi in D:\project (1)\project)
+2024-03-27 13:27:38.274  INFO 7412 --- [main] c.rushi.project.ProjectApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 13:27:39.104  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 13:27:39.154  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2024-03-27 13:27:39.705  INFO 7412 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 13:27:39.758  INFO 7412 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-03-27 13:27:39.898  INFO 7412 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-27 13:27:40.032  INFO 7412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-27 13:27:40.359  INFO 7412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-27 13:27:40.373  INFO 7412 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 13:27:40.891  INFO 7412 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 13:27:40.903  INFO 7412 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 13:27:41.393  WARN 7412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 13:27:41.644  INFO 7412 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 13:27:42.368  INFO 7412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@497cf31a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@530aa75c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f46bc25, org.springframework.security.web.header.HeaderWriterFilter@55854382, org.springframework.security.web.csrf.CsrfFilter@5cdf2c83, org.springframework.security.web.authentication.logout.LogoutFilter@25131637, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a10e65b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71979130, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@593d0173, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@96271d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dcb4f30, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77f66138, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a0a93ce, org.springframework.security.web.session.SessionManagementFilter@15b882a0, org.springframework.security.web.access.ExceptionTranslationFilter@4700064f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b91e024]
+2024-03-27 13:27:42.438  INFO 7412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 13:27:42.453  INFO 7412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 13:27:42.478  INFO 7412 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 13:27:42.585  INFO 7412 --- [main] c.rushi.project.ProjectApplicationTests  : Started ProjectApplicationTests in 4.627 seconds (JVM running for 5.635)
+2024-03-27 13:27:42.811  INFO 7412 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rushi.project.controller.MainTest], using SpringBootContextLoader
+2024-03-27 13:27:42.812  INFO 7412 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.rushi.project.controller.MainTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-03-27 13:27:42.812  INFO 7412 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rushi.project.controller.MainTest]: MainTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-03-27 13:27:42.824  INFO 7412 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rushi.project.ProjectApplication for test class com.rushi.project.controller.MainTest
+2024-03-27 13:27:42.826  INFO 7412 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-03-27 13:27:42.827  INFO 7412 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4de14c58, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53141d3f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@16a4e4c9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b90f49d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c54e23b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7fdaeb6b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ee9daf5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@291fba9, org.springframework.test.context.event.EventPublishingTestExecutionListener@29ff84fa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@156b31d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@168ffb0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ca90087, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@59a49dbc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6dde03ce, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2b0df4ba]
+2024-03-27 13:27:42.870  INFO 7412 --- [main] com.rushi.project.controller.MainTest    : Starting MainTest using Java 17.0.7 on Rushikesh with PID 7412 (started by rushi in D:\project (1)\project)
+2024-03-27 13:27:42.870  INFO 7412 --- [main] com.rushi.project.controller.MainTest    : No active profile set, falling back to 1 default profile: "default"
+2024-03-27 13:27:43.078  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-27 13:27:43.085  INFO 7412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2024-03-27 13:27:43.321  INFO 7412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-03-27 13:27:43.331  INFO 7412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-27 13:27:43.331  INFO 7412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2024-03-27 13:27:43.438  INFO 7412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-27 13:27:43.438  INFO 7412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 565 ms
+2024-03-27 13:27:43.465  INFO 7412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-03-27 13:27:43.632  INFO 7412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-03-27 13:27:43.635  INFO 7412 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-03-27 13:27:43.777  INFO 7412 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-27 13:27:43.782  INFO 7412 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-27 13:27:43.839  INFO 7412 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-27 13:27:43.839  INFO 7412 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 13:27:44.001  WARN 7412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-27 13:27:44.092  INFO 7412 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-27 13:27:44.365  INFO 7412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12b4a53d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@262e2c8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a48e48e, org.springframework.security.web.header.HeaderWriterFilter@48f08e9, org.springframework.security.web.csrf.CsrfFilter@20961f8b, org.springframework.security.web.authentication.logout.LogoutFilter@3afe1020, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bd5ca02, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@cea6297, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@636e6791, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4758f533, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c30efc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10847aeb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@631ff7a2, org.springframework.security.web.session.SessionManagementFilter@ab2d814, org.springframework.security.web.access.ExceptionTranslationFilter@23faae85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1184b542]
+2024-03-27 13:27:44.535  INFO 7412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51766 (http) with context path ''
+2024-03-27 13:27:44.535  INFO 7412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-27 13:27:44.536  INFO 7412 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-27 13:27:44.541  INFO 7412 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-27 13:27:44.565  INFO 7412 --- [main] com.rushi.project.controller.MainTest    : Started MainTest in 1.734 seconds (JVM running for 7.614)
+2024-03-27 13:27:45.113  INFO 7412 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 13:27:45.115  INFO 7412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-27 13:27:45.122  INFO 7412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-27 13:27:45.141  INFO 7412 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-27 13:27:45.142  INFO 7412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-03-27 13:27:45.143  INFO 7412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
